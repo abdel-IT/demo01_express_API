@@ -1,0 +1,34 @@
+{
+    "developement" : {
+        "mode": "dev",
+        "port" : 8000,
+        "dbConnection":
+         {
+
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "demo_api"
+        }
+    },
+    "production" : {
+        "mode": "prod",
+        "port" : 5123,
+        "dbConnection": {
+            "host": "127.0.0.1",
+            "user": "user_api",
+            "password": "Test1234=",
+            "database": "demo_api"
+        }
+    },
+    "local" : {
+        "mode": "local",
+        "port" : 5555,
+        "dbConnection": {
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "demo_api_local"
+        }
+    }
+}
